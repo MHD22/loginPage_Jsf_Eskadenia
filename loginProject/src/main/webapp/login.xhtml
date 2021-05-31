@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://xmlns.jcp.org/jsf/core"
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+>
+    <h:head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css"></link>
+       
+    </h:head>
+    <h:body>
+    <main>
+    
+        <h1>Welcome to Eskadenia</h1>
+        <h3>Login to Join us:</h3>
+        <h:form>
+            <div class="formDiv">
+                <h:outputLabel for="userName" value="User name:  " />
+                <h:inputText id="userName" value="#{user.user_name}" required="true" requiredMessage="You should enter your user name!" />
+            </div>
+            <h:message for="userName" styleClass="error" ></h:message>
+            <br></br> 
+            <div class="formDiv">
+                <h:outputLabel for="pass" value="Password: " />
+               <h:inputSecret id="pass" value="#{user.password}" required="true" requiredMessage="You should enter your password!"/>
+            </div>
+			<h:message for="pass" styleClass="error" ></h:message>
+            <br></br>
+            <br></br>
+            <h:commandLink action="home"> 
+           		 <button >Login</button>
+            </h:commandLink>  
+            <h:link ></h:link>   
+        </h:form>
+        </main>
+    </h:body>
+   
+</html>

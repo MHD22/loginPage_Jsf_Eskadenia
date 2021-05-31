@@ -1,0 +1,101 @@
+ 			main{
+                width: 100%;
+                height: 80vh;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+            }
+            h1{
+                color: rgba(5, 59, 80, 0.87);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-size: 2.5em;
+                margin-bottom: 0;
+            }
+            
+            h2{
+                color: rgba(5, 59, 80, 0.87);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-style: italic;
+                font-size: 2.2em;
+                margin-bottom: 0;
+                width:75%;
+                margin:100px auto;
+                text-align:center;
+                
+            }
+            
+             .name{
+                color: rgba(95, 7, 7, 0.924);
+           
+            }
+            h3{
+                
+                color: rgba(95, 7, 7, 0.924);
+                font-family:cursive;
+                font-style: italic;
+                font-size: 2.2em;
+            }
+            .formDiv{
+                width: 90%;
+                margin: 15px;
+                font-size: 1.4em;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .formDiv label{
+                width: 40%;
+                font-weight: bold;
+                display: inline-block;
+                color: rgba(5, 59, 80, 0.87);
+            }
+            .formDiv input{
+                height: 25px;
+                border-radius: 10px;
+                width: 45%;
+                font-family: monospace;
+                font-style: italic;
+                text-align: center;
+                outline: none;
+                padding: 7px;
+                border: .5px solid rgba(61, 8, 8, 0.726);
+            }
+            form{
+                height: 40%;
+                width: 45%;
+                margin:0 auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color: rgba(0, 0, 0, 0.027);
+                box-shadow: 0 1px 15px 1px rgba(133, 126, 126, 0.294);
+            }
+            button{
+                width: 110px;
+                height: 45px;
+                padding: 5px 10px;
+                color: whitesmoke;
+                background-color: rgba(95, 29, 29, 0.623);
+                border-radius: 10px;
+                outline: none;
+                font-size: 1.3em;
+                cursor: pointer;
+                border:none;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            button:hover{
+                opacity: .8;
+                transform: translateY(3px);
+            }
+            .error{
+                font-style: italic;
+                color: maroon;
+                font-weight: bold;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
